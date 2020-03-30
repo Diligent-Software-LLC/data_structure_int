@@ -2,8 +2,10 @@ require_relative 'test_helper'
 
 # DataStructureIntTest.
 # @abstract
-#   Tests the DataStructureInt class.
+#   Tests the DataStructure type interface.
 class DataStructureIntTest < Minitest::Test
+
+  CLASS = DataStructureInt
 
   # test_conf_doc_f_ex().
   # @abstract
@@ -30,6 +32,18 @@ class DataStructureIntTest < Minitest::Test
   # @abstract
   #   Set fixtures.
   def setup()
+  end
+
+  # test_methods_dec().
+  # @abstract
+  #   self.instance?(obj = nil) and self.type?(type = nil) were declared. The
+  #   initialize method was undefined.
+  def test_methods_dec()
+    assert_respond_to(CLASS, 'instance?')
+    assert_respond_to(CLASS, 'type?')
+    assert_raises(NoMethodError) {
+      CLASS.new()
+    }
   end
 
   # teardown().

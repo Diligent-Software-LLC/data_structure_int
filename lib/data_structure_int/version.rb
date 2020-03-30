@@ -3,7 +3,7 @@
 
 # DataStructureInt.
 # @abstract
-#   A DataStructure type interface. .
+#   A DataStructure type interface.
 class DataStructureInt
   VERSION = '0.1.0'.freeze()
 end
