@@ -5,28 +5,29 @@ require_relative "data_structure_int/version"
 
 # DataStructureInt.
 # @abstract
+# @class_description
 #   A DataStructure type interface.
 class DataStructureInt
 
   undef :initialize
 
   # self.instance?(obj = nil).
-  # @abstract
+  # @description
   #   Boolean method. Verifies an object is a data structure instance.
-  # @param [*] obj
+  # @param obj [.]
   #   Any object.
-  # @return [TrueClass, FalseClass] boolean
+  # @return [TrueClass, FalseClass]
   #   True in the case the argument's class is an element of the types set.
   #   False otherwise.
   def self.instance?(obj = nil)
   end
 
   # self.type?(type = nil).
-  # @abstract
+  # @description
   #   Boolean method. Verifies a type is a DataStructure.
-  # @param [*] type
+  # @param type [.]
   #   Any type.
-  # @return [TrueClass, FalseClass] boolean
+  # @return [TrueClass, FalseClass]
   #   True in the case the type is an element of the types set. False otherwise.
   def self.type?(type = nil)
   end

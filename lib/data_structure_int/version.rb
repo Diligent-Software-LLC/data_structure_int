@@ -3,7 +3,8 @@
 
 # DataStructureInt.
 # @abstract
+# @class_description
 #   A DataStructure type interface.
 class DataStructureInt
-  VERSION = '0.1.0'.freeze()
+  VERSION = '1.0.0'.freeze()
 end
