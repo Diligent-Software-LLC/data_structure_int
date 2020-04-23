@@ -23,17 +23,18 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
     <option name="showStatusBarWidget" value="true" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c558741e-f5f6-462b-9140-e55f6c53b308" name="Default Changelist" comment="Development Complete&#10;&#10;Added DataStructureInt class. Added DataStructureInt tests. Adjusted Changelog.md. Fixed typo in version.rb. Reformatted gem specification. Reformatted README.md. Substituted variables in README.md.">
-      <change beforePath="$PROJECT_DIR$/.idea/data_structure_int.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_structure_int.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_int.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_structure_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_int/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_structure_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_structure_int_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+    <list default="true" id="c558741e-f5f6-462b-9140-e55f6c53b308" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="279" />
+    <option name="myElementSize" value="325" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -79,6 +80,7 @@
     <option name="myCommands">
       <command value="mkdir artifacts" />
       <command value="mv data_structure_int-0.1.0.gem artifacts" />
+      <command value="cp ../&quot;Template Files&quot;/.yardopts .yardopts" />
     </option>
   </component>
   <component name="RunManager">
@@ -129,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585575813449</updated>
       <workItem from="1585575816007" duration="6161000" />
-      <workItem from="1587666461768" duration="1719000" />
+      <workItem from="1587666461768" duration="2656000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Project&#10;&#10;Completed setup. Generated project files. Configured gem specification.">
       <created>1585578461782</created>
@@ -145,10 +147,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585585969566</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Development Complete&#10;&#10;Bumped Major Version and reset Minor Version. Fixed YARDocumentation. Added a .yardopts file. Added a .yardopts assertion. Fixed the 'require' statement in test_helper.rb. Deleted Travis CI deployment settings. Formatted the Gem Specification. Fixed the License and Changelog URI. Updated the dependencies.">
+      <created>1587669541747</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587669541747</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: DataStructure Subsystem:{ No Subsystem} Component: Interface Sprints: 6 #{Development} " />
+        <option name="defaultSearch" value="project: DataStructure Subsystem:{ No Subsystem} Component: Interface Sprints: 6 #{Prepare Deployment} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -172,7 +181,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialized Project&#10;&#10;Completed setup. Generated project files. Configured gem specification." />
     <MESSAGE value="Development Complete&#10;&#10;Added DataStructureInt class. Added DataStructureInt tests. Adjusted Changelog.md. Fixed typo in version.rb. Reformatted gem specification. Reformatted README.md. Substituted variables in README.md." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Added DataStructureInt class. Added DataStructureInt tests. Adjusted Changelog.md. Fixed typo in version.rb. Reformatted gem specification. Reformatted README.md. Substituted variables in README.md." />
+    <MESSAGE value="Development Complete&#10;&#10;Bumped Major Version and reset Minor Version. Fixed YARDocumentation. Added a .yardopts file. Added a .yardopts assertion. Fixed the 'require' statement in test_helper.rb. Deleted Travis CI deployment settings. Formatted the Gem Specification. Fixed the License and Changelog URI. Updated the dependencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Bumped Major Version and reset Minor Version. Fixed YARDocumentation. Added a .yardopts file. Added a .yardopts assertion. Fixed the 'require' statement in test_helper.rb. Deleted Travis CI deployment settings. Formatted the Gem Specification. Fixed the License and Changelog URI. Updated the dependencies." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -180,10 +190,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1585575851491" />
-    <state x="182" y="112" width="1251" height="795" key="CommitChangelistDialog2" timestamp="1585585998588">
+    <state x="182" y="112" width="1251" height="795" key="CommitChangelistDialog2" timestamp="1587669541369">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="182" y="112" width="1251" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585585998588" />
+    <state x="182" y="112" width="1251" height="795" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587669541369" />
     <state width="1540" height="271" key="GridCell.Tab.0.bottom" timestamp="1587668830277">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -216,10 +226,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587668811046" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587668973074">
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587669581262">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587668973074" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587669581262" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structure_int@DataStructureIntTest.rcov" NAME="DataStructureIntTest Coverage Results" MODIFIED="1587668824649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_int" />
